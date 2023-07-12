@@ -101,7 +101,8 @@ class Manager extends Employee{
         this.employees = [employees]
     }
     getEmployees() {
-    console.log(`Name : ${this.name} manages ${this.employees}`)   
+    console.log(this.employees)
+    //console.log(`Name : ${this.name} manages ${this.employees}`)   
     }
     addEmployee(emp) {
     this.employees.push(emp) 
@@ -137,7 +138,7 @@ class Manager extends Employee{
 */
 
 //CODE HERE 
-manager.addEmployee('Coach')  // add Coach to addEmployee method
+manager.addEmployee('Coach')// add Coach to addEmployee method
 /*
     Call the `getEmployees` method on the
     `manager` object again to confirm 
